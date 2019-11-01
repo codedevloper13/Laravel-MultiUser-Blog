@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from megadin.lab.themebucket.net/horizontal-nav-light.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Sep 2019 07:34:00 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png" /> -->
+        <title>Horizontal Nav Light</title>
+
+        <!-- inject:css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="bower_components/simple-line-icons/css/simple-line-icons.css">
+        <link rel="stylesheet" href="bower_components/weather-icons/css/weather-icons.min.css">
+        <link rel="stylesheet" href="bower_components/themify-icons/css/themify-icons.css">
+        <!-- endinject -->
+
+        <!-- Main Style  -->
+        <link rel="stylesheet" href="dist/css/main.css">
+
+        <!--bootstrap sub menu-->
+        <link href="assets/js/bootstrap-submenu/css/bootstrap-submenu.css" rel="stylesheet">
+
+        <script src="assets/js/modernizr-custom.js"></script>
+    </head>
+    <body>
+
+        <div id="ui" class="ui ui-aside-none">
+
+            <!--header start-->
+            <header id="header" class="ui-header">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="navbar-header">
+                                <!--logo start-->
+                                <a href="index.html" class="navbar-brand">
+                                    <span class="logo"><img src="imgs/logo-dark.png" alt=""/></span>
+                                </a>
+                                <!--logo end-->
+                            </div>
+
+                            <div class="search-dropdown dropdown pull-right visible-xs">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-search"></i></button>
+                                <div class="dropdown-menu">
+                                    <form >
+                                        <input class="form-control" placeholder="Search here..." type="text">
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="navbar-collapse nav-responsive-disabled">
+
+
+                                <!--search start-->
+                                <form class="search-content hidden-xs" >
+                                    <button type="submit" name="search" class="btn srch-btn">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    <input type="text" class="form-control" name="keyword" placeholder="Search here...">
+                                </form>
+                                <!--search end-->
+
+                                <!--notification start-->
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa fa-bell-o"></i>
+                                            <span class="badge">5</span>
+                                        </a>
+                                        <!--dropdown -->
+                                        <ul class="dropdown-menu dropdown-menu--responsive">
+                                            <div class="dropdown-header">Notifications (12)</div>
+                                            <ul class="Notification-list Notification-list--small niceScroll list-group">
+                                                <li class="Notification list-group-item">
+                                                    <button class="Notification__status Notification__status--read" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Notification__avatar Notification__avatar--danger pull-left" href="#">
+                                                            <i class="Notification__avatar-icon fa fa-bolt"></i>
+                                                        </div>
+                                                        <div class="Notification__highlight">
+                                                            <p class="Notification__highlight-excerpt"><b>Server Error Report</b></p>
+                                                            <p class="Notification__highlight-time">1.2 hours ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Notification list-group-item">
+                                                    <button class="Notification__status Notification__status--read" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Notification__avatar Notification__avatar--success pull-left" href="#">
+                                                            <i class="Notification__avatar-icon fa fa-user-plus"></i>
+                                                        </div>
+                                                        <div class="Notification__highlight">
+                                                            <p class="Notification__highlight-excerpt"><b>New Member Registration</b></p>
+                                                            <p class="Notification__highlight-time">2 hours ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Notification list-group-item">
+                                                    <button class="Notification__status Notification__status--read" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Notification__avatar pull-left" href="#">
+                                                            <img src="imgs/a0.jpg" alt="...">
+                                                        </div>
+                                                        <div class="Notification__highlight">
+                                                            <p class="Notification__highlight-excerpt"><b>Tomas Edison</b> and 4 other people like your post “keep clam and watch the fizz”.</p>
+                                                            <p class="Notification__highlight-time">1 day ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+
+                                                <li class="Notification list-group-item">
+                                                    <button class="Notification__status Notification__status--unread" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Notification__avatar pull-left" href="#">
+                                                            <img src="imgs/a0.jpg" alt="...">
+                                                        </div>
+                                                        <div class="Notification__highlight">
+                                                            <p class="Notification__highlight-excerpt"><b>Luciad Extic</b> can join conference.</p>
+                                                            <p class="Notification__highlight-time">1 hour ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Notification list-group-item">
+                                                    <button class="Notification__status Notification__status--unread" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Notification__avatar Notification__avatar--info pull-left" href="#">
+                                                            <i class="Notification__avatar-icon fa fa-database"></i>
+                                                        </div>
+                                                        <div class="Notification__highlight">
+                                                            <p class="Notification__highlight-excerpt"><b>Database Error</b></p>
+                                                            <p class="Notification__highlight-time">2 days ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Notification list-group-item">
+                                                    <button class="Notification__status Notification__status--read" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Notification__avatar Notification__avatar--danger pull-left" href="#">
+                                                            <i class="Notification__avatar-icon fa fa-bolt"></i>
+                                                        </div>
+                                                        <div class="Notification__highlight">
+                                                            <p class="Notification__highlight-excerpt"><b>Server Error Report</b></p>
+                                                            <p class="Notification__highlight-time">1.2 hours ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Notification list-group-item">
+                                                    <button class="Notification__status Notification__status--read" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Notification__avatar Notification__avatar--success pull-left" href="#">
+                                                            <i class="Notification__avatar-icon fa fa-user-plus"></i>
+                                                        </div>
+                                                        <div class="Notification__highlight">
+                                                            <p class="Notification__highlight-excerpt"><b>New Member Registration</b></p>
+                                                            <p class="Notification__highlight-time">2 hours ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-footer"><a href="#">View more</a></div>
+                                        </ul>
+                                        <!--/ dropdown -->
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa fa-envelope-o"></i>
+                                            <span class="badge">5</span>
+                                        </a>
+                                        <!--dropdown -->
+                                        <ul class="dropdown-menu dropdown-menu--responsive">
+                                            <div class="dropdown-header">Messages (12)</div>
+                                            <ul class="Message-list niceScroll list-group">
+                                                <li class="Message list-group-item">
+                                                    <button class="Message__status Message__status--read" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Message__avatar Message__avatar--danger pull-left" href="#">
+                                                            <img src="imgs/a2.jpg" alt="...">
+                                                        </div>
+                                                        <div class="Message__highlight">
+                                                            <span class="Message__highlight-name">Lubida Teresa</span>
+                                                            <p class="Message__highlight-excerpt">Hello there! Can you send me a photo please?</p>
+                                                            <p class="Message__highlight-time">1 hour ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Message list-group-item">
+                                                    <button class="Message__status Message__status--unread" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Message__avatar Message__avatar--danger pull-left" href="#">
+                                                            <img src="imgs/a1.jpg" alt="...">
+                                                        </div>
+                                                        <div class="Message__highlight">
+                                                            <span class="Message__highlight-name">Sara Souaidan</span>
+                                                            <p class="Message__highlight-excerpt">Hello there!</p>
+                                                            <p class="Message__highlight-time">1 hour ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Message list-group-item">
+                                                    <button class="Message__status Message__status--read" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Message__avatar Message__avatar--danger pull-left" href="#">
+                                                            <img src="imgs/a0.jpg" alt="...">
+                                                        </div>
+                                                        <div class="Message__highlight">
+                                                            <span class="Message__highlight-name">Addy Osmany</span>
+                                                            <p class="Message__highlight-excerpt">Blah Blah Blah</p>
+                                                            <p class="Message__highlight-time">1 hour ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Message list-group-item">
+                                                    <button class="Message__status Message__status--read" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Message__avatar Message__avatar--danger pull-left" href="#">
+                                                            <img src="imgs/a0.jpg" alt="...">
+                                                        </div>
+                                                        <div class="Message__highlight">
+                                                            <span class="Message__highlight-name">Picaso Patel</span>
+                                                            <p class="Message__highlight-excerpt">Bhai, are you there?</p>
+                                                            <p class="Message__highlight-time">2 years ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="Message list-group-item">
+                                                    <button class="Message__status Message__status--read" type="button" name="button"></button>
+                                                    <a href="#">
+                                                        <div class="Message__avatar Message__avatar--danger pull-left" href="#">
+                                                            <img src="imgs/a0.jpg" alt="...">
+                                                        </div>
+                                                        <div class="Message__highlight">
+                                                            <span class="Message__highlight-name">Bengali Tiger</span>
+                                                            <p class="Message__highlight-excerpt">Mu ha ha</p>
+                                                            <p class="Message__highlight-time">10 years ago</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-footer"><a href="#">View more</a></div>
+                                        </ul>
+                                        <!--/ dropdown -->
+                                    </li>
+
+                                    <li class="dropdown dropdown-usermenu">
+                                        <a href="#" class=" dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                            <div class="user-avatar"><img src="imgs/a0.jpg" alt="..."></div>
+                                            <span class="hidden-sm hidden-xs">John Doe</span>
+                                            <!--<i class="fa fa-angle-down"></i>-->
+                                            <span class="caret hidden-sm hidden-xs"></span>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
+                                            <li><a href="#"><i class="fa fa-cogs"></i>  Settings</a></li>
+                                            <li><a href="#"><i class="fa fa-user"></i>  Profile</a></li>
+                                            <li><a href="#"><i class="fa fa-commenting-o"></i>  Feedback</a></li>
+                                            <li><a href="#"><i class="fa fa-life-ring"></i>  Help</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#"><i class="fa fa-sign-out"></i> Log Out</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a data-toggle="ui-aside-right" href="#"><i class="glyphicon glyphicon-option-vertical"></i></a>
+                                    </li>
+                                </ul>
+                                <!--notification end-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--header end-->
+
+            <!--nav start-->
+            <nav class="navbar navbar-inverse yamm navbar-default hori-nav " role="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="navbar-header">
+
+                                <!--toggle bar for responsive star-->
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#main-navigation">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <!--toggle bar for responsive end-->
+
+                            </div>
+
+                            <div class="collapse navbar-collapse" id="main-navigation">
+
+                                <ul class="nav navbar-nav">
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-submenu>
+                                            Dashboard <span class="fa fa-angle-down"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a tabindex="0"><i class="fa fa-home"></i> Dashboard 1</a></li>
+                                            <li><a tabindex="0"><i class="fa fa-compass"></i> Dashboard 2</a></li>
+                                            <li><a tabindex="0"><i class="fa fa-dashboard"></i> Dashboard 3</a></li>
+                                            <li><a tabindex="0"><i class="fa fa-plane"></i> Dashboard 4</a></li>
+                                            <li><a tabindex="0"><i class="fa fa-server"></i> Dashboard 5</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown mega-dropdown yamm-half">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Components <span class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="yamm-content">
+                                                    <div class="row">
+
+                                                        <ul class="col-sm-4 list-unstyled">
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                        </ul>
+                                                        <ul class="col-sm-4 list-unstyled">
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                        </ul>
+
+                                                        <ul class="col-sm-4 list-unstyled">
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown mega-dropdown yamm-fw">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Features <span class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="yamm-content">
+                                                    <div class="row">
+
+                                                        <ul class="col-sm-3 list-unstyled">
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                        </ul>
+                                                        <ul class="col-sm-3 list-unstyled">
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                        </ul>
+
+                                                        <ul class="col-sm-3 list-unstyled">
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                        </ul>
+                                                        <ul class="col-sm-3 list-unstyled">
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                            <li><a href="#"> Link Item </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-submenu>
+                                            Apps <span class="fa fa-angle-down"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu">
+                                                <a tabindex="0">Action</a>
+
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown-submenu">
+                                                        <a tabindex="0">Another sub action</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a tabindex="0">Sub action</a></li>
+                                                            <li><a tabindex="0">Another sub action</a></li>
+                                                            <li><a tabindex="0">Something else here</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown-submenu">
+                                                        <a tabindex="0">Another action</a>
+
+                                                        <ul class="dropdown-menu">
+                                                            <li><a tabindex="0">Sub action</a></li>
+                                                            <li><a tabindex="0">Another sub action</a></li>
+                                                            <li><a tabindex="0">Something else here</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown-submenu">
+                                                <a tabindex="0">Another action</a>
+
+                                                <ul class="dropdown-menu">
+                                                    <li><a tabindex="0">Sub action</a></li>
+                                                    <li><a tabindex="0">Another sub action</a></li>
+                                                    <li><a tabindex="0">Something else here</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a tabindex="0">Something else here</a></li>
+
+                                            <li><a tabindex="0">Separated link</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-submenu >
+                                            Data Tables <span class="fa fa-angle-down"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu">
+                                                <a tabindex="0">Action</a>
+
+                                                <ul class="dropdown-menu">
+                                                    <li><a tabindex="0">Sub action</a></li>
+                                                    <li class="dropdown-submenu">
+                                                        <a tabindex="0">Another sub action</a>
+
+                                                        <ul class="dropdown-menu">
+                                                            <li><a tabindex="0">Sub action</a></li>
+                                                            <li><a tabindex="0">Another sub action</a></li>
+                                                            <li><a tabindex="0">Something else here</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a tabindex="0">Something else here</a></li>
+                                                    <li class="dropdown-submenu">
+                                                        <a tabindex="0">Another action</a>
+
+                                                        <ul class="dropdown-menu">
+                                                            <li><a tabindex="0">Sub action</a></li>
+                                                            <li><a tabindex="0">Another sub action</a></li>
+                                                            <li><a tabindex="0">Something else here</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown-submenu">
+                                                <a tabindex="0">Another action</a>
+
+                                                <ul class="dropdown-menu">
+                                                    <li><a tabindex="0">Sub action</a></li>
+                                                    <li><a tabindex="0">Another sub action</a></li>
+                                                    <li><a tabindex="0">Something else here</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a tabindex="0">Something else here</a></li>
+                                            <li><a tabindex="0">Separated link</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-submenu >
+                                            Forms <span class="fa fa-angle-down"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu">
+                                                <a tabindex="0">Action</a>
+
+                                                <ul class="dropdown-menu">
+                                                    <li><a tabindex="0">Sub action</a></li>
+                                                    <li class="dropdown-submenu">
+                                                        <a tabindex="0">Another sub action</a>
+
+                                                        <ul class="dropdown-menu">
+                                                            <li><a tabindex="0">Sub action</a></li>
+                                                            <li><a tabindex="0">Another sub action</a></li>
+                                                            <li><a tabindex="0">Something else here</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a tabindex="0">Something else here</a></li>
+                                                    <li class="dropdown-submenu">
+                                                        <a tabindex="0">Another action</a>
+
+                                                        <ul class="dropdown-menu">
+                                                            <li><a tabindex="0">Sub action</a></li>
+                                                            <li><a tabindex="0">Another sub action</a></li>
+                                                            <li><a tabindex="0">Something else here</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown-submenu">
+                                                <a tabindex="0">Another action</a>
+
+                                                <ul class="dropdown-menu">
+                                                    <li><a tabindex="0">Sub action</a></li>
+                                                    <li><a tabindex="0">Another sub action</a></li>
+                                                    <li><a tabindex="0">Something else here</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a tabindex="0">Something else here</a></li>
+                                            <li><a tabindex="0">Separated link</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--nav end-->
+
+
+            <!--main content start-->
+            <div id="content" class="ui-content ui-content-aside-overlay">
+                <div class="ui-content-body">
+
+                    <div class="container">
+
+                        <!--page title and breadcrumb start -->
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1 class="page-title"> Horizontal Light Sub Menu
+                                    <small>data, statistics, charts, recent reports and many more</small>
+                                </h1>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="breadcrumb pull-right">
+                                    <li>Home</li>
+                                    <li><a href="#" class="active">Dashboard</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--page title and breadcrumb end -->
+
+                        <!--states start-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="panel">
+                                    <header class="panel-heading">
+                                        Panel heading
+                                        <span class="tools pull-right">
+                                            <a class="refresh-box fa fa-repeat" href="javascript:;"></a>
+                                            <a class="collapse-box fa fa-chevron-down" href="javascript:;"></a>
+                                            <a class="close-box fa fa-times" href="javascript:;"></a>
+                                        </span>
+                                    </header>
+                                    <div class="panel-body">
+                                        Panel body
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--states end-->
+
+
+                    </div>
+
+                    <!--right side widget start-->
+                    <div class="ui-aside-right " ui-aside-right>
+
+                        <!--customer start-->
+                        <div class="aside-widget">
+                            <h5>Online Customer</h5>
+                            <ul class="contact-list">
+                                <li class="online">
+                                    <div class="media">
+                                        <a href="#" class="pull-left media-thumb">
+                                            <img alt="" src="imgs/a0.jpg" class="media-object">
+                                            <span class="online"></span>
+                                        </a>
+                                        <div class="media-body">
+                                            <strong>John Doe</strong>
+                                            <small>General Manager at TB</small>
+                                        </div>
+                                    </div><!-- media -->
+                                </li>
+                                <li class="online">
+                                    <div class="media">
+                                        <a href="#" class="pull-left media-thumb">
+                                            <img alt="" src="imgs/a1.jpg" class="media-object">
+                                            <span class="offline"></span>
+                                        </a>
+                                        <div class="media-body">
+                                            <strong>Jonathan Smith</strong>
+                                            <small>Lead Designer</small>
+                                        </div>
+                                    </div><!-- media -->
+                                </li>
+
+                                <li class="online">
+                                    <div class="media">
+                                        <a href="#" class="pull-left media-thumb">
+                                            <img alt="" src="imgs/a2.jpg" class="media-object">
+                                            <span class="busy"></span>
+                                        </a>
+                                        <div class="media-body">
+                                            <strong>Margarita Rose</strong>
+                                            <small>Human Resource Manager</small>
+                                        </div>
+                                    </div><!-- media -->
+                                </li>
+                                <li class="online">
+                                    <div class="media">
+                                        <a href="#" class="pull-left media-thumb">
+                                            <img alt="" src="imgs/a0.jpg" class="media-object">
+                                            <span class="away"></span>
+                                        </a>
+                                        <div class="media-body">
+                                            <strong>Mr. Kameron De</strong>
+                                            <small>Marketing Officer</small>
+                                        </div>
+                                    </div><!-- media -->
+                                </li>
+                                <li class="online">
+                                    <div class="media">
+                                        <a href="#" class="pull-left media-thumb">
+                                            <img alt="" src="imgs/a2.jpg" class="media-object">
+                                            <span class="offline"></span>
+                                        </a>
+                                        <div class="media-body">
+                                            <strong>Mr. Mosa</strong>
+                                            <small>Development Manager</small>
+                                        </div>
+                                    </div><!-- media -->
+                                </li>
+                            </ul>
+                        </div>
+                        <!--customer end-->
+
+                        <!--stock start-->
+                        <div class="aside-widget">
+                            <h5>Recent Stocks</h5>
+                            <table class="table">
+                                <tbody>
+                                <tr>
+                                    <td>DOWJ</td>
+                                    <td>19,764.00</td>
+                                    <td><small class="label label-success">+ 0.08%</small></td>
+                                </tr>
+                                <tr>
+                                    <td>AAPL</td>
+                                    <td>116.90</td>
+                                    <td><small class="label label-danger">- 0.29%</small></td>
+                                </tr>
+                                <tr>
+                                    <td>SBUX</td>
+                                    <td>50.33</td>
+                                    <td><small class="label label-warning">+ 0.23%</small></td>
+                                </tr>
+                                <tr>
+                                    <td>NKE</td>
+                                    <td>164.00</td>
+                                    <td><small class="label label-success">+ 0.08%</small></td>
+                                </tr>
+                                <tr>
+                                    <td>YHOO</td>
+                                    <td>764.00</td>
+                                    <td><small class="label label-danger">- 0.91%</small></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!--stock end-->
+
+                        <!--task start-->
+                        <div class="aside-widget">
+                            <h5>Task Pending</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">
+                                        <div class="task-info">
+                                            Wp Development (66%)
+                                        </div>
+                                        <div class="progress progress-striped">
+                                            <div style="width: 66%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="66" role="progressbar" class="progress-bar progress-bar-warning">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="task-info">
+                                            Dashboard Design (80%)
+                                        </div>
+                                        <div class="progress progress-striped">
+                                            <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success ">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="task-info">
+                                            Marketing (40%)
+                                        </div>
+                                        <div class="progress progress-striped">
+                                            <div style="width: 40%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar progress-bar-info">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="task-info">
+                                            Mobile App Development (33%)
+                                        </div>
+                                        <div class="progress progress-striped">
+                                            <div style="width: 33%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-danger">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="text-center">
+                                    <a href="#" class="btn btn-sm btn-info btn-block">See All Pending Tasks</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--task end-->
+
+                    </div>
+                    <!--right side widget end-->
+
+                </div>
+            </div>
+            <!--main content end-->
+
+            <!--footer start-->
+            <div id="footer" class="ui-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            2017 &copy; MegaDin by ThemeBucket.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer end-->
+
+        </div>
+
+        <!-- inject:js -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/jquery.nicescroll/dist/jquery.nicescroll.min.js"></script>
+        <script src="bower_components/autosize/dist/autosize.min.js"></script>
+        <!-- endinject -->
+
+        <!--bootstrap-submenu & dropdown-->
+        <script src="assets/js/bootstrap-submenu/js/bootstrap-submenu.js"></script>
+        <script src="assets/js/bootstrap-hover-dropdown.js"></script>
+
+        <script>
+            $(document).ready(function () {
+
+                // yamm mega menu
+
+                $(document).on('click', '.yamm .dropdown-menu', function(e) {
+                    e.stopPropagation()
+                });
+
+                //bootstrap sub menu
+
+                $('[data-submenu]').submenupicker();
+
+
+            });
+        </script>
+
+
+        <!-- Common Script   -->
+        <script src="dist/js/main.js"></script>
+
+
+    </body>
+
+<!-- Mirrored from megadin.lab.themebucket.net/horizontal-nav-light.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Sep 2019 07:34:00 GMT -->
+</html>
